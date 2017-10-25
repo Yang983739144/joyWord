@@ -1,0 +1,217 @@
+header {
+	margin: 0 auto;
+	width: 1297px;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	background: #f9f9f9;
+}
+
+#uld {
+	margin-left: 54px;
+	display: flex;
+}
+
+#uld a {
+	border-right: 1px solid #e9e7e9;
+	line-height: 30px;
+	padding: 0 10px;
+	color: #666666;
+	font-size: 10px;
+}
+
+#uld li {
+	float: left;
+}
+
+#uld1 {
+	margin-left: 300px;
+	display: flex;
+}
+
+#uld1 a {
+	line-height: 30px;
+	padding: 0 10px;
+	border-right: 1px solid #e9e7e9;
+	color: #666666;
+	font-size: 10px;
+}
+
+#uld1 select {
+	width: 80px;
+	height: 20px;
+   margin-left: 20px;
+    margin-top: 6px;
+	
+}
+
+#logo {
+	width: 1297px;
+	margin: 0 auto;
+	height: 110px;
+}
+
+#logo #img1 {
+	padding: 23px 0 37px 70px;
+	float: left;
+}
+
+#input1 {
+	float: left;
+	width: 493px;
+	height: 37px;
+	border: 2px solid #f74a4a;
+	line-height: 39px;
+	margin: 30px 60px 50px 120px;
+}
+
+#input1 span {
+	background: url(../img/箭头.gif) no-repeat right;
+	height: 20px;
+	padding-right: 30px;
+	width: 120px;
+	margin-left: 28px;
+	border-right: 1px solid #ddd;
+}
+
+#input1 input {
+	width: 330px;
+	height: 34px;
+	border: 0;
+}
+
+#input1 #sousuo {
+	float: right;
+}
+
+#logo #img2 {
+	margin-left: -15px;
+	float: left;
+}
+
+#menu {
+	margin: 0 auto;
+	width: 1297px;
+	height: 53px;
+	display: flex;
+	background: #000000;
+}
+#uld2{
+	margin-left: 54px;
+}
+#uld2 li{
+	width: 127px;
+	height: 53px;
+	float: left;
+	line-height: 53px;
+	text-align: center;
+}
+#uld2 li:first-child{
+	width: 192px;
+	height: 53px;
+    background: #eb4c4c;
+    background-image: url(../img/icon.png)
+
+}
+#uld2 li:last-child{
+	width: 231px;
+	height: 44px;
+	margin-left: 10px;
+	margin-top: 4px;
+
+
+}
+.shop{
+	height: 41px;
+	line-height: 41px;
+	background: #f74a4a;
+
+}
+.shop img{
+	    margin-top: -8px;
+    vertical-align: middle;
+}
+ #uld2 .active{
+	display: block;
+}
+.shop span{
+	border-left: 1px solid #ddd;
+	padding-left: 20px;
+	color: white;
+	font-size: 20px;
+	margin-left: 30px;
+}
+#tan{
+	width: 600px;
+	height: 94px;
+	background: white;
+	position: absolute;
+	right:110px;
+	top: 208px;
+	z-index: 900;
+	display: none;
+}
+#tan1{
+	width: 100%;
+	height: 35px;
+	background: #DDDDDD;
+}
+.shop:hover #tan1{
+	background: none;
+}
+#tan1 ul{
+	margin-left: 30px;
+}
+#tan2{
+	color: red;
+}
+
+#tan1 ul li a{
+	font-size: 10px;
+	color: black;
+}
+#tan1 ul li{
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100px;
+	height: 35px;
+}
+#uld2 li a{
+	font-size: 20px;
+	color: #FFFFFF;
+}
+#uld2>li:hover{
+	background: red;
+}
+#box{
+	height: 327px;
+	width: 1297px;
+	margin: 0 auto;
+	background: red;
+}
+#box #left{
+	margin-left: 53px;
+}
+#box #left li{
+	width: 192px;
+	height: 53px;
+	line-height: 53px;
+	text-align: center;
+
+}
+#box ul{
+	float: left;
+}
+#box #left a{
+	font-size: 20px;
+	color: #FFFFFF;
+}
+#banner{
+	width: 772px;
+	height: 328px;
+	background: pink;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
