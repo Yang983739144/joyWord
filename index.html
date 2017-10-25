@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/ba.css" />
+	</head>
+
+	<body>
+		<header>
+			<ul id="uld">
+				<li>
+					<a style="background: url(img/phone.gif) no-repeat left;" href="#">手机版</a>
+				</li>
+				<li>
+					<a href="#">游戏币交易</a>
+				</li>
+				<li>
+					<a href="#">Q币充值</a>
+				</li>
+				<li>
+					<a style="border: 0;" href="#">心悦游戏家</a>
+				</li>
+			</ul>
+			<ul id="uld1">
+				<li>
+					<a href="#">您还未登录，请登录</a>
+				</li>
+				<li>
+					<a href="#">我的订单</a>
+				</li>
+				<li>
+					<a href="#">个人中心</a>
+				</li>
+				<li style="background:url(img/箭头.gif) no-repeat right">
+					<a href="#">官方论坛</a>
+				</li>
+				<li>
+					<a href="#">帮助中心</a>
+				</li>
+				<li>
+					<select>
+						<option>游戏导航
+						</option>
+					</select>
+				</li>
+			</ul>
+		</header>
+		<div id="logo">
+			<img id="img1" src="img/道聚城.gif" />
+			<div id="input1">
+				<span>选择游戏</span>
+				<input type="text" value="请选择游戏搜索道具" />
+				<img id="sousuo" src="img/jietu1.gif" />
+			</div>
+			<img id="img2" src="img/logo.png" />
+
+		</div>
+		<div id="menu">
+			<ul id="uld2">
+				<li>
+					<a href="#">
+						
+						所有游戏分类</a>
+				</li>
+				<li>
+					<a href="#">首页</a>
+				</li>
+				<li>
+					<a href="#">活动中心</a>
+				</li>
+				<li>
+					<a href="#">聚成品</a>
+				</li>
+				<li>
+					<a href="#">手游中心</a>
+				</li>
+				<li>
+					<a href="#">聚豆商城</a>
+				</li>
+				<li>
+					<a href="#">个人中心</a>
+				</li>
+				<li>
+					<div class="shop">
+						<img src="img/jietu8.gif" />
+						<a href="#">购物车</a>
+						<span>0</span>
+						<div id="tan">
+							<div id="tan1">
+								<ul>
+									<li style="width: 100px; height: 35px;background: 0; ">
+										<a hhref="#">游戏</a>
+									</li>
+									<li>
+										<a hhref="#">道具名</a>
+									</li>
+									<li>
+										<a hhref="#">单价</a>
+									</li>
+									<li>
+										<a hhref="#">数量</a>
+									</li>
+									<li style="width: 100px; height: 35px; margin: 0; background: 0;">
+										<a hhref="#">操作</a>
+									</li>
+								</ul>
+							</div>
+						    <div id="tan2">
+								对不起，您还未登录，请登录后重试！
+							</div>
+						</div>
+					</div>
+
+				</li>
+			</ul>
+		</div>
+		<div id="box">
+			<div id="left">
+				<ul>
+
+					<li>
+						<a href="#">热门游戏</a>
+					</li>
+					<li>
+						<a href="#">角色扮演</a>
+					</li>
+					<li>
+						<a href="#">竞技游戏</a>
+					</li>
+					<li>
+						<a href="#">休闲游戏</a>
+					</li>
+					<li>
+						<a href="#">网页游戏</a>
+					</li>
+				</ul>
+			</div>
+			<div id="banner">
+
+			</div>
+		</div>
+	</body>
+
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/Slider03.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script>
+	$("#banner").slider({
+			$boxDom: $("#banner"),
+			width: 772,
+			height: 328,
+			//播放的图片数组（图片的地址）
+			imgs: ["img/20171023151443_175697.jpg", "img/20171020195358_299205.jpg", "img/20171020150949_399610.jpg", "img/20171020175101_777503.jpg", "img/20171020201047_670748.jpg", ],
+			//当前播放的图片的序号
+			currOrd: 1,
+			//时间间隔
+			timeSpace: 3000,
+			//按钮
+			//按钮的颜色
+			btn: {
+				//按钮的大小
+				width: 10,
+				height: 10,
+				color: "white", //按钮的原始颜色
+				highColor: "#f74a4a", //按钮的高亮颜色
+				//按钮的位置（）
+				right: 30,
+				bottom: 10,
+				isCircle: false
+			}
+		}
+
+	);
+</script>
