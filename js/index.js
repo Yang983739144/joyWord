@@ -14,5 +14,5 @@ $(function(){
 	   $(this).find(".left-2-1").css("color","white");
 	    $($(".left-2-1")[index]).siblings(".game1").css("display","none");
 	});
-})
 
+})

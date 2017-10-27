@@ -1,0 +1,206 @@
+@charset "gb2312";
+
+.slide{width:770px;height:330px;overflow:hidden;margin-left:190px;float:left;display:inline;position:relative}
+.slide .pic{position:absolute;top:0}
+.slide .dev{float:left;position:relative;width:770px;height:330px}
+.slide .dev p{position:absolute;width:750px;padding:0 10px;height:40px;line-height:40px;color:#fff;bottom:0;left:0}
+.slide .dev s{display:block;width:770px;height:40px;background:#000;opacity:0.6;-moz-opacity:0.6;-khtml-opacity:0.6;filter:alpha(opacity=60);position:absolute;bottom:0;left:0}
+.slide .dot{position:absolute;bottom:10px;right:20px;text-align:right}
+.slide .dot a{display:inline-block;width:12px;height:12px;overflow:hidden;background:#fff;margin-left:6px}
+.slide .dot a.curr{background:#f74a4a}
+.login_box{margin:0 5px;padding:15px 10px;height:56px;overflow:hidden}
+.login_box .usr_img img{display:block;width:46px;height:46px;border-radius:23px;-webkit-border-radius:23px;-moz-border-radius:23px}
+.login_box p{margin-left:55px;line-height:18px}
+.login_box .i_mycoin{width:20px;height:20px;background-position:-90px -240px;margin-left:3px;display:inline}
+.login_box p.clearfix{height:20px}
+.sm_tt{font-weight:800;line-height:20px;padding-bottom:2px}
+.curr_game,.notice_list{padding:7px 0 10px 10px;margin:0 5px;height:100px;width:210px;overflow:hidden}
+.curr_game li{float:left;width:50px;margin:5px 20px 0 0;text-align:center}
+.curr_game img{display:block;width:50px;height:50px}
+.curr_game span{display:block;line-height:20px;height:20px;overflow:hidden}
+.notice_list{height:108px}
+.notice_list li{line-height:22px;height:22px;overflow:hidden;float:left}
+.notice_list a{color:#666;float:left;width:160px;height:22px;overflow:hidden;text-overflow:ellipsis},.notice_list a:hover{color:#f74a4a}
+.notice_list i{float:right;width:40px;font-style:normal;color:#999;text-align:left}
+.comm_tt{height:24px;line-height:24px;margin-bottom:10px}.comm_tt s{margin-right:3px}
+.discount{overflow:hidden}
+.discount dl{float:left;padding:22px 30px;line-height:22px;width:256px;height:100px;border-right:1px solid #f3f4f6;border-bottom:1px solid #f3f4f6;position:relative}
+.discount dt{float:left;margin-top:10px}
+.discount dt img{display:block;width:80px;height:67px}
+.discount dd{margin-left:94px}
+.discount dd p{height:22px;overflow:hidden}
+.discount a.box{display:block;border:1px solid #e3eaee;width:58px;height:25px;line-height:25px;margin-top:5px;color:#666;cursor:pointer}
+.discount a.box:hover{color:#e43333;border-color:#e43333;text-decoration:none}
+.discount .i_s_fav{float:left;width:11px;height:10px;overflow:hidden;background-position:-20px -243px;margin:8px 4px 0 6px;display:inline}
+.discount a.box:hover .i_s_fav{background-position:-40px -243px}
+.discount a.btn{line-height:26px;height:25px;width:90px;margin-top:4px;*line-height:28px;overflow:hidden}
+.discount .comm_bg{width:960px;height:290px}
+.discount dd.zj{margin:0;position:absolute;top:-5px;left:10px;width:56px;height:46px;background-position:-350px -89px;text-align:center;color:#fff;line-height:16px;padding-top:10px}
+.discount dd.zj b{display:block;font-size:12px}
+.actlist{}
+.actlist .comm_bg{height:326px;}
+.actlist .ul{height:100%;}
+.surprise .comm_bg{height:290px}
+.surprise dl{width:190px;height:280px;margin:0 auto;padding-top:10px;line-height:22px;position:relative}
+.surprise img{display:block;width:190px;height:162px;margin-bottom:5px}
+.surprise .dis_btn,.surprise .btn{width:190px;height:25px;line-height:26px;margin-top:7px;*line-height:28px;overflow:hidden}
+.surprise .djms{position:absolute;top:5px;left:-10px;width:23px;height:69px;background-position:-60px -160px;color:#fff;line-height:15px;text-align:center;font-weight:800;font-size:14px;padding-top:2px}
+.surprise dd em.num_bg{font-weight:700;color:#fff;padding:0 5px;border-radius:2px;background:#7f8b99;margin:0 3px}
+.ms_default{width:210px;height:270px;background:url(http://daoju.qq.com/becombine/mall/images/ms_default.png) no-repeat 0 10px;margin:0 auto;padding-top:10px}
+.favorite img{display:block;width:90px;height:75px;margin:10px auto 10px auto}
+.favorite dl{width:122px;height:160px;padding:28px 34px;border-left:1px solid #f3f4f6;float:left}
+.favorite dd{text-align:center}
+.favorite dl p{height:40px;overflow:hidden}
+.favorite dl p a b{display:block}
+.favorite dl p.red{height:20px}
+.favorite .comm_bg{width:960px;height:216px}.favorite{overflow:hidden}
+.sign_in .btn,.sign_in .box{width:190px;height:77px;border-bottom-width:6px;font-size:18px;line-height:77px;text-align:left;*line-height:80px;*overflow:hidden;margin-top:15px}
+.sign_in .box{background:#f1f1f1;height:83px;border-bottom:0;color:#3a3f4a}
+.sign_in .i_calendar,.sign_in .i_calendar2{float:left;width:27px;height:26px;background-position:-140px -137px;margin:27px 10px 0 38px;display:inline}
+.sign_in .i_calendar2{background-position:-169px -137px;margin-left:26px}
+.sign_in .comm_bg{padding:20px;height:176px}
+.sign_in .tip{padding:10px 0;margin-bottom:10px}
+.sign_in .tip em{font-size:18px;margin:0 5px}
+.sign_in .tip p{margin-bottom:5px}
+.act_list ul{padding:10px 0 0 10px}
+.act_list li{float:left;width:383px;margin-right:10px;height:158px;overflow:hidden;display:inline}
+.act_list img{display:block;width:383px;height:148px}
+.area .pic{width:240px;height:304px;overflow:hidden}
+.area .list{width:764px;overflow:hidden}
+.area .list_top li{float:left;border-right:1px solid #f3f4f6;width:190px;overflow:hidden}
+.area .list_top li a{display:block;width:148px;height:163px;padding:20px;border-bottom:1px solid #f3f4f6;line-height:20px;
+-webkit-transition:margin-left .2s linear;-moz-transition:margin-left .2s linear;
+}
+.area .list_top li a:hover{text-decoration:none;color:#333;margin-left:5px}
+.area .list_top li span{display:block;height:20px;overflow:hidden;text-overflow:ellipsis}.area .list_top li span.name{padding-bottom:3px}
+.area .list_top strong{font-size:16px;font-weight:800}
+.area .list_top img{width:90px;height:75px;display:block;margin-top:10px}
+.area .list_top .gray{color:#b0b0b0}
+.area .list_bot li{float:left;border-right:1px solid #f3f4f6;width:170px;height:60px;padding:20px 0px 20px 20px;line-height:20px}
+.area .list_bot img{float:left;width:60px;height:50px}
+.area .list_bot .txt{margin-left:70px}
+.area .list_bot p{height:20px;overflow:hidden;text-overflow:ellipsis}
+.area .rank{width:186px}
+.area .rank dd{height:43px;border-top:1px solid #f3f4f6;padding:5px 5px 5px 0}
+.area .rank dd.top{padding-top:20px;height:62px;border-top:0}
+.area .rank .ico{float:left;width:20px;height:24px;background-position:-20px -300px;font-style:normal;color:#fff;text-align:center;line-height:20px}
+.area .rank .top .ico{height:53px;background-position:0 -300px;line-height:16px}
+.area .rank .txt{float:left;width:88px;margin:0 0 0 10px;display:inline}
+.area .rank img{float:right;width:40px;height:34px;margin-top:1px}.area .rank .top img{width:60px;height:50px}
+.area .rank p{white-space:nowrap;width: 88px;overflow: hidden;text-overflow: ellipsis;}
+.actbot_list{overflow:hidden;height:146px;}
+.actbot_list ul{width:1200px}
+.actbot_list li{float:left;margin-right:10px}
+.actbot_list img{display:block;width:390px;height:146px}
+body{_height:100%}
+#black_bg{background:#000;opacity:0.6;-moz-opacity:0.6;-khtml-opacity:0.6;filter:alpha(opacity=60);position:fixed;top:0;left:0;width:100%;height:100%;z-index:100;
+_position:absolute;_top:expression(eval(document.documentElement.scrollTop))}
+
+/*签到弹层*/
+.sign_box{font-size:14px;line-height:20px;position:fixed;width:700px;height:400px;background:#fff;border:1px solid #e5e5e5;z-index:101;top:50%;left:50%;margin:-200px 0 0 -350px;
+_position:absolute;_left:expression(eval(document.documentElement.clientWidth/2+document.documentElement.scrollLeft));_top:expression(eval(document.documentElement.clientHeight/2+document.documentElement.scrollTop))}
+.sign_box h6{float:left;font:18px/24px Microsoft Yahei;padding:10px 0 0 20px}
+.sign_box .line{height:1px;width:660px;margin:10px auto 15px auto;overflow:hidden;background:#f3f4f6}
+.sign_box .line s{display:block;width:74px;height:1px;overflow:hidden;background:#f74a4a}
+.sign_box .close{display:block;width:20px;height:20px;background-position:-40px -300px;float:right;text-indent:-9999px;margin:13px 20px 0 0;_display:inline}
+.sign_box .date{padding-left:20px;width:350px}
+.sign_box .month{width:135px;margin-bottom:10px;position:absolute;top:14px;left:122px}
+.sign_box .month .prev,.sign_box .month .next{display:block;text-indent:-9999px;width:21px;height:16px;overflow:hidden;margin-top:2px}
+.sign_box .month .prev{float:left;background-position:-60px -317px}.sign_box .month .dis_prev{background-position:-60px -300px;cursor:default}
+.sign_box .month .next{float:right;background-position:-82px -317px}.sign_box .month .dis_next{background-position:-82px -300px;cursor:default}
+.sign_box .table{position:relative}
+.sign_box .table th{width:48px;height:42px;background:#cfdae7;color:#fff;border:1px solid #fff}
+.sign_box .table td{width:48px;height:48px;text-align:center;background:#f3f4f6;border:1px solid #fff}
+.sign_box .table td .label{display:block;margin:0 auto;width:33px;height:33px;background-position:-104px -300px}
+.sign_box .i_signbig{display:none;width:200px;height:200px;overflow:hidden;position:absolute;top:43px;left:73px;margin-left:8px\9}
+@media screen and (-webkit-min-device-pixel-ratio:0){.sign_box .i_signbig{margin-left:7px}}
+.sign_box .text{width:310px;padding-top:10px;font-size:12px}
+.sign_box .text .big{font:18px/24px Microsoft Yahei}
+.sign_box .text .big em{font-size:28px;vertical-align:-2px;margin:0 3px}
+.sign_box .text .tip{margin-bottom:8px}
+.sign_box .text .comm_btn,.sign_box .text .dis_btn{width:90px;height:25px;line-height:26px;margin-top:5px;overflow:hidden}
+.sign_box .text .jb_btn{background:#ffae00;border-bottom-color:#fc8400}
+.sign_box .text dd{margin-bottom:15px;line-height:22px}
+
+/*心悦*/
+.login_box .ico{background:url(http://js02.daoju.qq.com/common/images/icon.png) no-repeat;float:left;width:16px;height:15px;margin:4px 4px 0 0}
+.login_box .ico_vip,.login_box .ico_nvip{background-position:0 -473px}
+.login_box .ico_nonvip{background-position:-52px -473px}
+.login_box .ico_vipc{background-position:-16px -473px}
+.login_box .ico_vipl{background-position:-34px -473px}
+.login_box .ico_vip1{background-position:-69px -473px}
+.login_box .ico_vip2{background-position:-85px -473px}
+.login_box .ico_vip3{background-position:-102px -473px}
+.login_box .ico_vip4{background-position:-120px -473px}
+.login_box .ico_vip5{background-position:-138px -473px}
+.login_box .ico_nvip1{background-position:-69px -492px}
+.login_box .ico_nvip2{background-position:-85px -492px}
+.login_box .ico_nvip3{background-position:-102px -492px}
+
+/*新手引导*/
+#guide_bg{display:none;background:#000;opacity:0.6;-moz-opacity:0.6;-khtml-opacity:0.6;filter:alpha(opacity=60);position:fixed;top:0;left:0;width:100%;height:100%;z-index:3000;
+_position:absolute;_top:expression(eval(document.documentElement.scrollTop))}
+.guide_con{display:none;position:fixed;top:0;left:50%;margin-left:-595px;z-index:3001;
+_position:absolute;_left:expression(eval(document.documentElement.clientWidth/2+document.documentElement.scrollLeft));_top:expression(eval(document.documentElement.scrollTop))}
+.guide{display:none;position:absolute}
+.guide a{display:block;width:120px;height:37px;position:absolute;text-indent:-9999px}
+.guide_1{position:fixed;width:559px;height:316px;top:50%;left:50%;margin:-158px 0 0 -275px;background:url(http://ossweb-img.qq.com/images/daoju/mall/guide/step_1.png) no-repeat;
+_position:absolute;_left:expression(eval(document.documentElement.clientWidth/2+document.documentElement.scrollLeft));_top:expression(eval(document.documentElement.clientHeight/2+document.documentElement.scrollTop))}
+.guide_1 a{top:232px;left:44px}
+.guide_2{width:427px;height:232px;top:137px;left:320px;background:url(http://ossweb-img.qq.com/images/daoju/mall/guide/step_2.png) no-repeat}
+.guide_2 a{top:165px;left:188px}
+.guide_3{width:384px;height:232px;top:137px;left:458px;background:url(http://ossweb-img.qq.com/images/daoju/mall/guide/step_3.png) no-repeat}
+.guide_3 a{top:165px;left:164px}
+.guide_4{width:485px;height:246px;top:69px;right:20px;background:url(http://ossweb-img.qq.com/images/daoju/mall/guide/step_4.png) no-repeat}
+.guide_4 a{top:178px;left:104px}
+
+/*新版改动20151022*/
+.login_box{margin:0 5px;padding:15px 10px;padding-right:0;height:56px;overflow:hidden}
+.login_box .usr_img img{display:block;width:46px;height:46px;border-radius:23px;-webkit-border-radius:23px;-moz-border-radius:23px}
+.login_box p{margin-left:55px;line-height:18px}
+.login_box p .smallgrade{position:absolute;top:4px;left:0;width:28px;height:13px;line-height:20px;display:inline-block;text-align:center;margin-left:0;font-size:12px;background:url(http://js01.daoju.qq.com/common/images/act-icon.png) no-repeat;background-position:0 100px;color:#fff;text-indent:-999em;vertical-align: text-bottom;}
+.login_box p .smallgrade.rank0{background-position:-125px -175px;}
+.login_box p .smallgrade.rank1{background-position:-125px -151px;}
+.login_box p .smallgrade.rank2{background-position:-125px -127px;}
+.login_box p .smallgrade.rank3{background-position:-125px -104px;}
+.login_box p .smallgrade.rank4{background-position:-125px -80px;}
+.login_box p .smallgrade.rank5{background-position:-125px -56px;}
+.login_box .usr_img{margin-top:3px;}
+.login_box p.gthbox{width:150px;height:15px;font-size:12px;color:#666;position:relative;margin-top:10px;}
+.login_box p.gthbox span{display:inline-block;}
+.login_box p.gthbox .svaluebar{position:absolute;top:4px;left:27px;width:107px;height:9px;background:#b7c2ce;z-index:2;border-radius:6px;-webkit-box-shadow:inset 0 0 10px #a4afbc;  
+  -moz-box-shadow:inset 0 0 10px #a4afbc;box-shadow:inset 0 0 10px #a4afbc;}
+.login_box p.gthbox .svover{position:absolute;top:4px;left:27px;height:7px;background:#ffef24;z-index:3;border-radius:6px;border:1px solid #dea50a;
+    background: -webkit-linear-gradient(#ffef24, #fc9814);
+    background: -o-linear-gradient(#ffef24, #fc9814);
+    background: -moz-linear-gradient(#ffef24, #fc9814);
+    background: linear-gradient(#ffef24, #fc9814);
+}
+.login_box p.gthbox a{text-decoration:none;}
+.login_box p.gthbox .gthbar-num{position:absolute;z-index:5;top:-1px;left:52px;color:#343434;cursor:default;}
+.login_box p.gthtips{width:225px;height:20px;line-height:20px;margin-top:7px;margin-left:-10px;}
+.login_box p.gthtips strong{font-weight:normal;color:#f55656;padding:0 4px;}
+.login_box p.qqintro{line-height:16px;*line-height:24px;margin-top:3px;}
+.login_box p .qq-index{width:70px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
+
+
+/*新版改动20151222*/
+.new-acticon{width:16px;height:16px;background:url(http://js01.daoju.qq.com/common/images/act-icon.png) 100px 100px no-repeat;}
+.bean-num{position:relative;width:52px;height:16px;overflow:hidden;text-overflow: ellipsis;white-space: nowrap;padding-left:18px;display:inline-block;}
+.bean-num .bean{position:absolute;top:0;left:0;background-position:-148px -18px;display:block;}
+
+/*newpage*/
+.newpage{position:fixed;top:0;left:0;min-width:1190px;width:100%;height:100%;z-index:10000;display:none;}
+.newpage .pagebg{position:absolute;top:0;left:0;z-index:10000;width:100%;height:100%;background:#000;opacity:0.78;filter:alpha(opacity=78);}
+.newpage .newmain{position:absolute;top:0;left:50%;margin-left:-500px;z-index:10001;width:1000px;height:100%;}
+.newpage .btn-next, .newpage .btn-close{position:absolute;top:468px;left:50%;margin-left:-157px;width:191px;height:60px;line-height:56px;
+    text-align:center;font-size:22px;color:#fff;font-weight:bold;text-indent:-9999em;display:block;z-index:10003;background:url(http://js01.daoju.qq.com/common/images/mall/btn-guide.png) no-repeat;}
+.newpage .btn-next{background-position:-7px -2px;}
+.newpage .btn-close{background-position:-424px -2px;}
+.newpage .mcont{margin:34px 0 0 193px;width:740px;height:529px;position:relative;}
+.newpage .new-intro{width:740px;height:468px;}
+.newpage .new-intro .newimg{width:740px;height:468px;display:block;}
+.newpage .link-next{position:absolute;left:415px;top:489px;width:158px;height:25px;font-size:18px;color:#3aaa86;
+    text-indent:-9999em;display:block;background:url(http://js01.daoju.qq.com/common/images/mall/btn-guide.png) no-repeat;background-position:-203px -24px;}
+
+/*  |xGv00|fbd46e0a6547ad53b5194b7a4498f845 */
