@@ -438,6 +438,11 @@ header {
 #right-2 {
   height: 115px;
   border-bottom: 1px solid #efefef; }
+  #right-2 a:hover dd {
+    color: red;
+    text-decoration: underline; }
+  #right-2 dd {
+    color: black; }
 
 #right-2 h4 {
   margin-top: 10px;
@@ -534,6 +539,11 @@ header {
   float: left;
   padding-top: 20px;
   line-height: 30px; }
+  #sale1-1 p a {
+    color: black; }
+    #sale1-1 p a:hover {
+      color: red;
+      text-decoration: underline; }
 
 #sale1-1 button {
   height: 30px;
@@ -546,6 +556,11 @@ header {
   line-height: 30px;
   border: none;
   margin-left: 20px; }
+  #sale1-1 button a {
+    color: white; }
+  #sale1-1 button:hover {
+    background-color: #e43333;
+    border-color: #ce2d2d; }
 
 .surprise {
   width: 22px;
@@ -620,7 +635,12 @@ header {
   #like #like-1 {
     width: 946px;
     height: 218px;
-    background: pink; }
+    background: white; }
+    #like #like-1 dd a {
+      color: black; }
+    #like #like-1 dd p:hover a {
+      color: red;
+      text-decoration: underline; }
     #like #like-1 li {
       text-align: center;
       float: left;
@@ -637,7 +657,7 @@ header {
   #like #like-2 {
     width: 228px;
     height: 214px;
-    background: pink;
+    background: white;
     margin-left: 14px; }
     #like #like-2 .like {
       display: inline-block;
@@ -1185,14 +1205,126 @@ header {
 #last {
   width: 1197px;
   height: 146px;
-  background: white;
   margin: 0 auto;
-  margin-top: 10px; }
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px; }
+
+.foot_wrap {
+  width: 100%;
+  background: #3b3f4a; }
 
 footer {
   width: 1297px;
-  height: 355px;
-  background: black;
-  margin: 0 auto; }
+  height: 335px;
+  margin: 0 auto;
+  padding-top: 20px; }
+  footer #footer1 {
+    width: 1197px;
+    height: 187px;
+    margin: 0 auto; }
+    footer #footer1 li {
+      display: flex;
+      width: 205px;
+      height: 153px;
+      border-right: 1px solid #444853;
+      float: left;
+      margin: 0 10px; }
+      footer #footer1 li #lisdv {
+        width: 40px;
+        height: 40px;
+        background: url(../img/icon.png) no-repeat left;
+        background-position: 10px -133px; }
+      footer #footer1 li #lisdv2 {
+        width: 30px;
+        height: 40px;
+        background: url(../img/icon.png) no-repeat left;
+        background-position: -33px -133px; }
+      footer #footer1 li #lisdv3 {
+        width: 30px;
+        height: 40px;
+        background: url(../img/icon.png) no-repeat left;
+        background-position: -64px -133px; }
+      footer #footer1 li #lisdv4 {
+        width: 30px;
+        height: 40px;
+        background: url(../img/icon.png) no-repeat left;
+        background-position: -94px -133px; }
+      footer #footer1 li #lisdv1 {
+        margin-left: 8px;
+        line-height: 20px; }
+        footer #footer1 li #lisdv1 a {
+          font-size: 12px;
+          color: #acb1bb; }
+          footer #footer1 li #lisdv1 a:hover {
+            text-decoration: underline; }
+        footer #footer1 li #lisdv1 p {
+          color: #acb1bb; }
+    footer #footer1 #footer2 {
+      width: 290px;
+      height: 189px;
+      float: left; }
+      footer #footer1 #footer2 dl {
+        float: right;
+        text-align: center;
+        margin: 0 20px; }
+        footer #footer1 #footer2 dl img {
+          width: 102px;
+          height: 106px; }
+        footer #footer1 #footer2 dl dd {
+          font-size: 16px;
+          color: #a4abb4; }
+  footer #footer3 {
+    width: 1197px;
+    height: 112px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 36px; }
+    footer #footer3 a {
+      color: #81858f; }
+      footer #footer3 a:hover {
+        text-decoration: underline; }
+    footer #footer3 p {
+      line-height: 20px;
+      color: #81858f;
+      font-size: 10px; }
+    footer #footer3 ul {
+      width: 1060px;
+      height: 20px;
+      margin: 0 auto; }
+    footer #footer3 li {
+      float: left; }
+      footer #footer3 li a {
+        font-size: 12px;
+        padding: 0 10px;
+        border-right: 1px solid #6f857d; }
+
+#top {
+  width: 72px;
+  height: 110px;
+  position: fixed;
+  right: 30px;
+  top: 400px; }
+  #top a {
+    color: #3a3f4a; }
+  #top #return {
+    width: 72px;
+    height: 60px;
+    text-align: center;
+    border: 2px solid #DDDDDD;
+    background: white; }
+    #top #return #return1 {
+      width: 34px;
+      height: 30px;
+      margin-left: 20px; }
+  #top #about {
+    width: 72px;
+    height: 35px;
+    margin-top: 5px;
+    text-align: center;
+    background: white;
+    font-size: 20px;
+    border: 2px solid #DDDDDD; }
 
 /*# sourceMappingURL=index.css.map */
